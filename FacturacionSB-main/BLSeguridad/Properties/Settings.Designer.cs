@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace FacturacionSB.Properties {
+namespace BLSeguridad.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
@@ -26,8 +26,8 @@ namespace FacturacionSB.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-IH4RHSC\\SQLEXPRESS;Initial Catalog=BLFacturacionSB.Contexto;U" +
-            "ser ID=sa")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-IH4RHSC\\SQLEXPRESS;Initial Catalog=BLFacturacionSB.Contexto;I" +
+            "ntegrated Security=True")]
         public string BLFacturacionSB_ContextoConnectionString {
             get {
                 return ((string)(this["BLFacturacionSB_ContextoConnectionString"]));
